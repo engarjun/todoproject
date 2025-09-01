@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.green
       ),
       debugShowCheckedModeBanner: false,
-      home:MyApp(),
+      home:MyApps(),
     );
   }
 }
