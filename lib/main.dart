@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '13_curd_class/home_screen.dart';
+//import '2_Flutter_Display_&_Styling_widgets/a_6_container.dart';
 
-
+//import '13_curd_class/home_screen.dart';
+import 'package:todoproject/proj/app.dart';
 
 
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.green
       ),
       debugShowCheckedModeBanner: false,
-      home:HomeScreen(),
+      home:MyApp(),
     );
   }
 }
